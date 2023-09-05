@@ -1,2 +1,2 @@
-# test2
+## test2 project
 from course ReactJS, Redux...
