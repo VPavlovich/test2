@@ -4,6 +4,9 @@
   "description": "test1",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "start": "webpack ./src/index.js ./public/bundle.js",
+    "lint": "eslint ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/VPavlovich/test2/issues"
   },
-  "homepage": "https://github.com/VPavlovich/test2#readme"
+  "homepage": "https://github.com/VPavlovich/test2#readme",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.48.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
 }
