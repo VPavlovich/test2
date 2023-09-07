@@ -1,0 +1,1 @@
+new function(){console.log("App init")};
